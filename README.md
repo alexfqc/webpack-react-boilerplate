@@ -2,7 +2,7 @@
 This is a boilerplate project that contains webpack setup, react, es6, sass, eslint, sass and production bundle config
 
 This project contains the setup to develop with React + es6 using Webpack to bundle your files.
----
+
 #### To run the project:
 - Clone this project and enter inside the folder
 - (install node if you do not have it and) Run npm i
