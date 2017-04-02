@@ -1,0 +1,30 @@
+$menu-background: #ff6347;
+$li-background-color-hover: #f55d42;
+$menu-color: #fff;
+
+.menu-container {
+  background-color: $menu-background;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.menu-container-ul {
+  margin: 0;
+}
+
+.menu-container-li {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  transition: background .3s ease;
+
+  &:hover {
+    background-color: $li-background-color-hover;
+  }
+}
+
+.menu-container-li-a {
+  color: $menu-color;
+  text-decoration: none;
+}
